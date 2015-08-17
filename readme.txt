@@ -1,7 +1,8 @@
 Executing:
 
-1. cd to target folder
-2. execute the folowing command: java -jar super-simple-stock-1.0-SNAPSHOT.jar
+1. build project: mvn clean install
+2. cd into target folder
+3. execute the following command: java -jar super-simple-stock-1.0-SNAPSHOT.jar
 **Note: if you want to specify how many trades should be generated add the number of trades as an extra parameter: java -jar super-simple-stock-1.0-SNAPSHOT.jar 50
 
 Classes:
